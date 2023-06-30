@@ -13,7 +13,7 @@ public class pascalstriangle {
             res = res/(i);
             templist.add(res);
         }
-        return;
+        return templist;
     }
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> list = new ArrayList<ArrayList<Integer>>();
